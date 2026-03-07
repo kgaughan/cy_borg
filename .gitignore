@@ -33,3 +33,6 @@ go.work.sum
 
 internal/web/static/test.html
 /cy_borg
+
+# Added by goreleaser init:
+dist/
