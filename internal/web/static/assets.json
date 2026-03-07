@@ -1,0 +1,24 @@
+{
+	"sources": {
+		"htmx": {
+			"version": "2.0.8",
+			"url": "https://cdn.jsdelivr.net/npm/htmx.org@{{.Version}}/dist/htmx.min.js"
+		},
+		"moustache": {
+			"version": "4.2.0",
+			"url": "https://raw.github.com/janl/mustache.js/v{{.Version}}/mustache.js"
+		}
+	},
+	"write": {
+		"htmx.js": {
+			"parts": [
+				"htmx"
+			]
+		},
+		"moustache.js": {
+			"parts": [
+				"moustache"
+			]
+		}
+	}
+}
